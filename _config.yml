@@ -21,8 +21,8 @@
 title: iAInNet's Blog
 email: 
 description: "Stay Hungry, Stay Foolish"
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/stay-foolish" # the subpath of your site, e.g. /blog
+url: "https://iainnet.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  iAInNet
 
 # Build settings
