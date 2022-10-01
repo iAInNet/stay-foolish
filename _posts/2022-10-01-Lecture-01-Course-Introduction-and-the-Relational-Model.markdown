@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Lecture 01 Course Introduction and the Relational Model"
-date: 2022-10-01 08:35:19
+date: 2022-10-01 08:35:19 +800
 categories: cmu15445-fall-2019
 tags: cmu15445 database
 catalogue: 🪴zettelkasten/post
