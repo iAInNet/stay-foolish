@@ -73,14 +73,14 @@ for line in file:
 概念集合，这个词有点抽象。可以换个更通俗的描述，“方法论”。所以，上面那句话翻译翻译就是：
 
 数据模型，是数据库系统如何存储数据的方法论。不同领域，会采用不同的格式去抽象真实世界的数据。比如以下数据模型分类：
-![Data Model](/assets/01%20Course%20Introduction%20and%20the%20Relational%20Model%202022-05-03%2022.32.15.excalidraw.svg)
+![Data Model](https://raw.githubusercontent.com/iAInNet/stay-foolish/master/assets/01%20Course%20Introduction%20and%20the%20Relational%20Model%202022-05-03%2022.32.15.excalidraw.svg)
 
 Relational、No SQL、Machine Learning、Obsolete/Rare 这些词汇只是数据模型的名称。在这个名称之下，是一系列概念，利用对应的概念集合描述数据，就可以归类到特定模型之下。
 
 本课程的主要内容，是依据“Relational”这一系列概念构建的数据库，我们叫它“关系型数据库”，核心模式（Schema）是关系（Relation）。
 
 还是上面作曲家和专辑的，转化为用关系模型进行描述，得到下图结构：
-![Relational Model](/assets/01%20Course%20Introduction%20and%20the%20Relational%20Model%202022-05-03%2022.47.28.excalidraw.svg)
+![Relational Model Example](https://raw.githubusercontent.com/iAInNet/stay-foolish/master/assets/01%20Course%20Introduction%20and%20the%20Relational%20Model%202022-05-03%2022.47.28.excalidraw.svg)
 
 - 关系（relation）：表示实体【属性关系】的无序集合，一般也会叫做“表”
 	- 比如，作曲家有三个属性（名称、出生年、出生地），聚合成一个关系（表）
