@@ -1,10 +1,11 @@
 ---
 layout: post
-title: "Lecture 01 Course Introduction and the Relational Model"
+title: "CMU 15-445 Fall 2019 Lecture 01 Course Introduction and the Relational Model"
 date: 2022-10-01 08:35:19 +800
 categories: cmu15445-fall-2019
 tags: cmu15445 database
-catalogue: 🪴zettelkasten/post
+create-date: 2022-04-19
+catalogue: 🌱record/literature 🪴zettelkasten/post
 ---
 ## Course Overview
 CMU 15-445，主要介绍了，如何设计和实现面向磁盘的数据库管理系统。包含以下课程内容：
@@ -94,12 +95,11 @@ Relational、No SQL、Machine Learning、Obsolete/Rare 这些词汇只是数据�
 - 关系外键（foreign key）：一个关系中属性指向另外一个关系的元组
 	- 比如，ArtistAlbum 中的 artist_id 属性，它的取值，指向 Artist 关系的数据元组。
 
-关系模型$^{[3]}$是 Ted Codd 于1970年提出。核心思想是将，现实中的实体转换为关系，并将数据的各种操作抽象为关系代数运算。每一个操作都会使用一个或者多个关系作为输入，并输出一个新的关系。这些操作还可以链接起来，从而组合出来更加复杂的运算。
+[关系模型](https://en.wikipedia.org/wiki/Relational_model)是 Ted Codd 于1970年提出。核心思想是将，现实中的实体转换为关系，并将数据的各种操作抽象为关系代数运算。每一个操作都会使用一个或者多个关系作为输入，并输出一个新的关系。这些操作还可以链接起来，从而组合出来更加复杂的运算。
 
 再将这些关系代数运算，使用一组更高级的语言封装。可以让不那么懂数学的人，快速写出同等含义的数学运算式子，也就演化出了一门高级查询语言： SQL 。
 
 ## Conclusion
-
 - 数据库是普遍存在的，可以认为是当代信息化社会的基石之一也不为过。
 - 关系代数定义了如何在关系型数据库中操作数据的原语
 
