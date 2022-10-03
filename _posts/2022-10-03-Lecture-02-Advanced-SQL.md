@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "CMU 15-445 Fall 2019 Lecture 02 Advanced SQL"
-date: 2022-10-03 07:49:09 +800
+date: 2022-10-03 08:49:09 +800
 categories: cmu15445-fall-2019
 tags: cmu15445 database
 create-date:  2022-05-03
@@ -498,6 +498,12 @@ select id from cteLevel;
 SQL 是一个一直发展的语言。如果可以的话，总是使用一个语句解决所有计算。
 
 ## References
-
 - [课件，lecture 02 advanced sql](https://15445.courses.cs.cmu.edu/fall2019/slides/02-advancedsql.pdf)
 - [CMU 15-445 视频教程：02 - Advanced SQL](https://www.youtube.com/watch?v=6VCHuLqfmV8&list=PLSE8ODhjZXjbohkNBWQs_otTrBTrjyohi&index=2)
+- [SQL](https://en.wikipedia.org/wiki/SQL)
+- [领域特定语言](https://en.wikipedia.org/wiki/Domain-specific_language)
+- [RDBMS](https://en.wikipedia.org/wiki/Relational_database#RDBMS)
+- [RDSMS](https://en.wikipedia.org/wiki/Relational_data_stream_management_system)
+- [Ted Codd](https://en.wikipedia.org/wiki/Edgar_F._Codd)
+- [multiset](https://en.wikipedia.org/wiki/Multiset)
+- [set](https://en.wikipedia.org/wiki/Set_(mathematics))
