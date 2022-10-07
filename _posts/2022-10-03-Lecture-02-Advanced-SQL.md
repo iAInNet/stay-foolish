@@ -5,7 +5,7 @@ date: 2022-10-03 08:49:09 +800
 categories: cmu15445-fall-2019
 tags: cmu15445 database
 create-date:  2022-05-03
-catalogue: 🌱record/literature 🪴zettelkasten/post
+catalogue: 🌱record/literature 🎍writing/post
 ---
 ## Relational Languages
 [SQL](https://en.wikipedia.org/wiki/SQL)（**Structured Query Language**）是一门[领域特定语言](https://en.wikipedia.org/wiki/Domain-specific_language)，被设计专门用于管理关系数据库管理系统（[RDBMS](https://en.wikipedia.org/wiki/Relational_database#RDBMS)）中的数据，或者被用于流处理关系数据流管理系统（[RDSMS](https://en.wikipedia.org/wiki/Relational_data_stream_management_system)）中的数据。

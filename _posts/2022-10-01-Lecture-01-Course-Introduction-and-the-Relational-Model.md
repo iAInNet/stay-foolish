@@ -5,7 +5,7 @@ date: 2022-10-01 08:35:19 +800
 categories: cmu15445-fall-2019
 tags: cmu15445 database
 create-date: 2022-04-19
-catalogue: 🌱record/literature 🪴zettelkasten/post
+catalogue: 🌱record/literature 🎍writing/post
 ---
 ## Course Overview
 CMU 15-445，主要介绍了，如何设计和实现面向磁盘的数据库管理系统。包含以下课程内容：
@@ -74,6 +74,7 @@ for line in file:
 概念集合，这个词有点抽象。可以换个更通俗的描述，“方法论”。所以，上面那句话翻译翻译就是：
 
 数据模型，是数据库系统如何存储数据的方法论。不同领域，会采用不同的格式去抽象真实世界的数据。比如以下数据模型分类：
+
 ![Data Model](https://raw.githubusercontent.com/iAInNet/stay-foolish/master/assets/01%20Course%20Introduction%20and%20the%20Relational%20Model%202022-05-03%2022.32.15.excalidraw.svg)
 
 Relational、No SQL、Machine Learning、Obsolete/Rare 这些词汇只是数据模型的名称。在这个名称之下，是一系列概念，利用对应的概念集合描述数据，就可以归类到特定模型之下。
@@ -81,6 +82,7 @@ Relational、No SQL、Machine Learning、Obsolete/Rare 这些词汇只是数据�
 本课程的主要内容，是依据“Relational”这一系列概念构建的数据库，我们叫它“关系型数据库”，核心模式（Schema）是关系（Relation）。
 
 还是上面作曲家和专辑的，转化为用关系模型进行描述，得到下图结构：
+
 ![Relational Model Example](https://raw.githubusercontent.com/iAInNet/stay-foolish/master/assets/01%20Course%20Introduction%20and%20the%20Relational%20Model%202022-05-03%2022.47.28.excalidraw.svg)
 
 - 关系（relation）：表示实体【属性关系】的无序集合，一般也会叫做“表”
