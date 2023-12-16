@@ -19,7 +19,7 @@
 # in the templates via {{ site.myvariable }}.
 
 title: iAInNet's Blog
-email: 
+email: lastdayinworld2012@gmail.com
 description: "Stay Hungry, Stay Foolish"
 baseurl: "/stay-foolish" # the subpath of your site, e.g. /blog
 url: "https://iainnet.github.io" # the base hostname & protocol for your site, e.g. http://example.com
@@ -31,9 +31,12 @@ plugins:
   - jekyll-feed
 
 header_pages:
-  - index.markdown
-  - category.markdown
-  - about.markdown
+  - index.md
+  - category.md
+  - about.md
+
+categories:
+  - 个人信息处理体系
 
 # Exclude from processing.
 # The following items will not be processed, by default.
