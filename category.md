@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 类别
+title: 领域
 permalink: /categories/
 ---
 <div id="archives">
