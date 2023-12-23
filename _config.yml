@@ -37,6 +37,7 @@ header_pages:
 
 categories:
   - 个人信息处理体系
+  - 分布式存储系统设计与实现
 
 # Exclude from processing.
 # The following items will not be processed, by default.
