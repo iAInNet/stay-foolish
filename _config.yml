@@ -26,9 +26,10 @@ url: "https://iainnet.github.io" # the base hostname & protocol for your site, e
 github_username:  iAInNet
 
 # Build settings
-theme: minima
+remote_theme: jekyll/minima
 plugins:
   - jekyll-feed
+  - jekyll-remote-theme
 
 header_pages:
   - index.md
