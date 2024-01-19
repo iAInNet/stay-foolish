@@ -20,7 +20,8 @@ minima:
   skin: classic
 
 categories:
-  - 个人信息处理体系
+  - 构建自我实现和管理体系
+  - 构建跨越时间的信息处理体系
   - 分布式存储系统设计与实现
 
 google_analytics: G-6YERGBY4FK
