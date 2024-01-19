@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "掌控习惯（原作名：Atomic Habits）概要笔记"
-date: 2024-01-20 00:00:00 +800
+date: 2024-01-20 08:00:00 +800
 categories: 构建自我实现和管理体系
 ---
 
