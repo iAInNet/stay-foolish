@@ -10,7 +10,6 @@ categories: 构建计算机学科知识体系
 关键词：网络爬虫、Colly、English Pod
 
 ## Golang Colly 简单介绍
-[[11,16 Golang Colly 工具包简单介绍]]
 
 [Colly](https://github.com/gocolly/colly) 是一个 Golang 工具包，可同时实现网络爬虫（Web Crawling）和网络刮削器（Web Scraping）。它基于 `net/http` 提供简洁 API 实现 HTTP 请求，以及封装 `goquery` 工具包提供解析 HTML/XML 页面提取所需内容的能力。
 
@@ -156,7 +155,6 @@ type HTMLElement struct {
 由此可见，注册多个回调方法，会按照注册的顺序逐个执行 `for _, cc := range c.htmlCallbacks`，并且每个回调方法对应的选择器如果命中页面中多个元素，那么同样是一个个元素调用注册方法 `doc.Find(cc.Selector).Each` 。
 
 ## 实现网络刮削器（Web Scraping）常用方法
-[[11,16a1 Colly 实现网络刮削器（Web Scraping）常用方法]]
 
 Colly 封装 [goquery](https://github.com/PuerkitoBio/goquery) 对外提供 `HTMLElement` 结构体，允许通过选择器匹配网页中的内容。
 
@@ -170,7 +168,6 @@ Colly 封装并提供了一些常用方法，可以简化刮削流程：
 - `ForEachWithBreak(goquerySelector string, callback func(int, *HTMLElement) bool)`：跟 `ForEach` 非常相似，但是可以通过在回调函数中返回 false 来中断遍历
 
 ## 实现 English Pod 网站爬虫
-[[11,16b 使用 Colly 抓取 English Pod 网站实现细节]]
 
 首先要观察页面内容，确认想要哪些信息。比如下图是 English Pod 系列存档内容，链接是： [English Pod 0001 Diffcult Customer](https://ia800103.us.archive.org/31/items/englishpod_all/englishpod_0001.html) 。
 
